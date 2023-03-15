@@ -29,7 +29,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-dbg": "mocha --inspect-brk"
   },
   "engines": {
     "node": ">=2.0.0"
